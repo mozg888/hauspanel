@@ -191,7 +191,7 @@ let dict = EN;
 export const BUILTIN = { en: EN, de: DE };
 
 /** Languages with their own file in lang/ (loaded only when used); German and English are built in. */
-export const LANGS = ["fr", "nl", "es", "it", "pl", "pt", "sv", "tr"];
+export const LANGS = ["fr", "nl", "es", "it", "pl", "pt", "sv", "tr", "uk"];
 const loaded = {};
 
 /** Follow Home Assistant's language; texts missing in a language fall back to English. */
