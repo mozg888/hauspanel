@@ -1,0 +1,26 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "HausPanel",
+        "description": "Додає HausPanel, MobilePanel та SecurityPanel до бічної панелі; упорядковує їх за кімнатами, поверхами та пристроями."
+      }
+    },
+    "abort": {
+      "single_instance_allowed": "HausPanel вже встановлено."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Хто побачить ці панелі?",
+        "description": "Відкрий панель тут, щоб вона була видима лише адміністраторам. Інші користувачі не бачитимуть її на бічній панелі та не зможуть її відкрити.",
+        "data": {
+          "admin_hauspanel": "HausPanel призначений виключно для адміністраторів",
+          "admin_mobilepanel": "MobilePanel призначений виключно для адміністраторів",
+          "admin_securitypanel": "SecurityPanel призначений виключно для адміністраторів"
+        }
+      }
+    }
+  }
+}
